@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="显示设置（重启生效）">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/setting_key_mobile_mh"
+            android:title="是否在首页显示小悬浮" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="quamiangping"
+            android:summary="下方虚拟按键被挡请关闭此设置"
+            android:title="是否全面屏" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="下载设置">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/setting_key_mobile_network_dl"
+            android:title="是否采用系统下载器下载" />
+
+        <EditTextPreference
+            android:key="prefEditText"
+            android:title="文件下载路径"
+            android:summary="..."/>
+
+<!--        <ListPreference-->
+<!--            android:defaultValue="歌名-歌手"-->
+<!--            android:dialogTitle="文件命名规则"-->
+<!--            android:entries="@array/music_name"-->
+<!--            android:entryValues="@array/music_name_value"-->
+<!--            android:key="musicNameFormt"-->
+<!--            android:title="歌曲命名规则"-->
+<!--            android:summary="..."/>-->
+        <!--<SwitchPreference-->
+        <!--android:defaultValue="false"-->
+        <!--android:key="@string/setting_key_mobile_network_download"-->
+        <!--android:title="@string/mobile_network_download" />-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/network">
+
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/setting_key_mobile_network_play"
+            android:title="@string/mobile_network_play" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/setting_key_mobile_network_download"
+            android:title="@string/mobile_network_download" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="缓存清理">
+        <Preference
+            android:key="star0"
+            android:title="缓存清理" />
+    </PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>

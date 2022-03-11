@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_name">
+        <Preference
+            android:key="version"
+            android:summary="v 1.0.1"
+            android:title="当前版本" />
+
+        <Preference
+            android:key="star"
+            android:title="常见问题" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于作者">
+        <Preference
+            android:key="weibo"
+            android:summary="小星星"
+            android:title="作者" />
+        <Preference
+            android:key="jianshu"
+            android:summary="点击加群"
+            android:title="交流群" />
+        <Preference
+            android:key="github"
+            android:summary="施舍一点吧"
+            android:title="捐赠作者" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="特别声明">
+        <Preference
+            android:summary="\t\t\t本项目仅供学习参考，不可用于非法用途！\n本项目仅供学习参考，不可用于非法用途！
+            \t\t\t\n本项目仅供学习参考，不可用于非法用途！
+            "
+            android:title="特别声明" />
+        <!--<Preference-->
+        <!--android:summary="如若灵悦侵犯了您的权益，请第一时间联系\n-->
+        <!--我的邮箱1054980699qq.com"-->
+        <!--android:title="版权相关" />-->
+    </PreferenceCategory>
+</PreferenceScreen>

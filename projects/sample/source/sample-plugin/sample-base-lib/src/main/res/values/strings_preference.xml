@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_key_mobile_network_play" translatable="false">mobile_network_play</string>
+    <string name="setting_key_mobile_network_download" translatable="false">mobile_network_download</string>
+    <string name="setting_key_sound_effect" translatable="false">sound_effect</string>
+    <string name="setting_key_filter_size" translatable="false">filter_size</string>
+    <string name="setting_key_filter_time" translatable="false">filter_time</string>
+
+</resources>

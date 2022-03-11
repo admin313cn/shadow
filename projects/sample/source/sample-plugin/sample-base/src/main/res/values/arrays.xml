@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="local_music_dialog">
+        <item>下一首播放</item>
+        <item>添加到歌单</item>
+        <item>@string/music_info</item>
+        <item>删除</item>
+    </string-array>
+
+    <string-array name="local_music_dialog0">
+        <item>下一首播放</item>
+        <item>设为铃声</item>
+        <item>@string/music_info</item>
+        <item>删除</item>
+    </string-array>
+
+    <string-array name="online_music_dialog">
+        <item>分享</item>
+        <item>查看歌手信息</item>
+        <item>下载</item>
+    </string-array>
+
+    <string-array name="online_music_dialog_without_download">
+        <item>分享</item>
+        <item>查看歌手信息</item>
+    </string-array>
+
+    <string-array name="timer_text">
+        <item>不开启</item>
+        <item>10分钟后</item>
+        <item>20分钟后</item>
+        <item>30分钟后</item>
+        <item>45分钟后</item>
+        <item>60分钟后</item>
+        <item>90分钟后</item>
+    </string-array>
+
+    <integer-array name="timer_int">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+    </integer-array>
+
+    <string-array name="filter_size_entries">
+        <item>不过滤</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>500KB</item>
+        <item>1MB</item>
+        <item>2MB</item>
+    </string-array>
+
+    <string-array name="def_play_type">
+        <item>128k</item>
+        <item>320k</item>
+    </string-array>
+
+    <string-array name="def_play_type_values">
+        <item>128k</item>
+        <item>320k</item>
+    </string-array>
+    <string-array name="filter_size_entry_values">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1024</item>
+        <item>2048</item>
+    </string-array>
+
+    <string-array name="filter_time_entries">
+        <item>不过滤</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>1分30秒</item>
+        <item>2分钟</item>
+    </string-array>
+    <string-array name="music_name">
+        <item>山楂树之恋-夏婉安</item>
+        <item>山楂树之恋 (夏婉安)</item>
+        <item>夏婉安-山楂树之恋</item>
+        <item>山楂树之恋</item>
+        <item>山楂树之恋-夏婉安 (专辑名)</item>
+    </string-array>
+    <string-array name="music_name_value">
+        <item>歌名-歌手</item>
+        <item>歌名 (歌手)</item>
+        <item>歌手-歌名</item>
+        <item>歌名</item>
+        <item>歌名-歌手 (专辑)</item>
+    </string-array>
+    <string-array name="filter_time_entry_values">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+</resources>

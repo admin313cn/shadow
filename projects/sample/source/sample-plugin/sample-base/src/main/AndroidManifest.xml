@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.u313.plugin.base">
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:name="cn.u313.plugin.application.VideoApplication"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="cn.u313.plugin.activity.WebActivity"
+            android:exported="false" />
+        <activity
+            android:name="cn.u313.plugin.activity.AboutActivity"
+            android:label="关于软件"
+            android:exported="false" />
+        <activity
+            android:name="cn.u313.plugin.activity.SettingActivity"
+            android:exported="false"
+            android:label="软件设置" />
+        <activity
+            android:name="cn.u313.plugin.activity.DownloadRecordActivity"
+            android:exported="false"
+            android:label="下载历史" />
+        <activity
+            android:name="cn.u313.plugin.activity.DownloadActivity"
+            android:exported="false"
+            android:label="下载管理器" />
+        <activity android:name="cn.u313.plugin.activity.PalyActivity"
+            android:label="播放"/>
+        <activity android:name="cn.u313.plugin.activity.VideoListActivity" />
+        <activity
+            android:name="cn.u313.plugin.activity.MainActivity"
+            android:label="短视频解析">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name="cn.u313.plugin.service.DownloadService"
+            android:exported="true"
+            android:label="MyService" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Bugly -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+</manifest>

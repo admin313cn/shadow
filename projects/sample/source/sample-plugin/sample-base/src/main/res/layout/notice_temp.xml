@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="320dp"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:id="@+id/notice_context"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:gravity="center"
+            android:background="@drawable/notice_head_bg">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="我是标题"
+                android:textColor="#fff"
+                android:id="@+id/notice_title"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:padding="20dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <cn.u313.plugin.view.BounceScrollView
+                android:layout_width="match_parent"
+                android:id="@+id/BounceScrollView"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#999999"
+                    android:id="@+id/notice_text"
+                    android:text="我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知我是新版通知"/>
+            </cn.u313.plugin.view.BounceScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:id="@+id/view_twoBtn"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="不了，谢谢"
+                    android:textSize="13dp"
+                    android:textColor="#999"
+                    android:id="@+id/notice_btn_no"
+                    android:background="@null"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:text="确定"
+                    android:textColor="#fff"
+                    android:id="@+id/notice_btn_ok"
+                    android:background="@drawable/ico_button_read2"
+                    android:layout_height="35dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:visibility="visible"
+                android:id="@+id/view_oneBtn"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="120dp"
+                    android:text="朕知道了"
+                    android:textColor="#fff"
+                    android:id="@+id/notice_btn_okOne"
+                    android:background="@drawable/ico_button_read2"
+                    android:layout_height="35dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
